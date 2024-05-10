@@ -1,0 +1,80 @@
+/* * {
+    border: 2px solid red;
+} */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+}
+
+.main-div {
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    /* padding-top: 100px; */
+    /* display: flex; */
+    margin: 100px auto;
+    background-image: linear-gradient(#1F2937 50px, #111827);
+}
+
+.text-div {
+    text-align: left;
+    padding: 80px 0 40px 50px;
+    color: #fff;
+}
+
+span {
+    color: #BE123C;
+    font-style: strong;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 450px;
+    margin: auto;
+    border-bottom: 1px solid #E11D48;
+}
+
+.gen-btn {
+    display: block;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: left;
+    background: #881337;
+    border: none;
+    border-radius: 6px; 
+    color: #fff;
+}
+
+.length-div {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.pass-div {
+    display: flex;
+    justify-content: center;
+}
+
+.pass-el {
+    background: #1F2937;
+    padding: 10px 20px;
+    margin: 30px 8px;
+    width: 180px;
+    height: 15px;
+    border-radius: 6px;
+    color: #E11D48;
+}
+
+.pass-el:hover {
+    background: #374151;
+}
